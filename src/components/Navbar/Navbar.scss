@@ -1,0 +1,38 @@
+
+$main-black: #222;
+$main-green: #82b340;
+$main-white: #fff;
+$main-grey: #ececec;
+
+.nav-container{
+    color: $main-white;
+    background-color:$main-black;
+    width: 100vw;
+    padding: 0.5rem 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  
+    .logo{
+      margin: 0.5rem 1rem;
+      background-color: $main-green;
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .nav-list{
+      ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+          list-style-type: none;
+        }
+      }
+    }
+  }
